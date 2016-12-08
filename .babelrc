@@ -1,0 +1,17 @@
+{
+  "presets": [["latest",{
+      "es2015": {
+        "modules": false
+      }
+    }],"stage-3",
+    "react"
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-class-properties",
+    "transform-runtime",
+    "async-to-promises",
+    "transform-flow-strip-types",
+    ["import",[{"libraryName": "antd" ,"style":false}]]
+  ]
+}
