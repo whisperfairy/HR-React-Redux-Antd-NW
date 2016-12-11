@@ -8,7 +8,7 @@
     "test": "karma start karma.conf.js --watch",
     "nw": "./node_modules/.bin/electron .",
     "build": "webpack --config ./webpack/nwBuild.js",
-    "nwbuild": "electron-packager ./dist helloElectron --platform=win32 --arch=x64 --out ./OutApp --version 1.4.10 --overwrite "
+    "nwbuild": "electron-packager ./dist helloElectron --platform=darwin --arch=x64 --out ./OutApp --version 1.4.10 --overwrite "
   },
   "devDependencies": {
     "autoprefixer": "^6.5.1",

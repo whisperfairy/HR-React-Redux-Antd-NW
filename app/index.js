@@ -4,7 +4,7 @@
 'use strict'
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './container/App.jsx'
+import App from './container/App/App.jsx'
 import './asset/styles/style.scss'
 
 ReactDOM.render(
